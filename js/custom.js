@@ -31,6 +31,8 @@ NOTE: This file contains all scripts for the actual Template.
 ======================================*/
 //POTENZA var
 
+
+
 (function ($) {
     "use strict";
     var POTENZA = {};
@@ -400,14 +402,14 @@ NOTE: This file contains all scripts for the actual Template.
     $document.ready(function () {
       POTENZA.counters(),
       POTENZA.slickslider(),
-      POTENZA.select2(),
-      POTENZA.dropdownmenu(),
-      POTENZA.isSticky(),
+      //POTENZA.select2(),
+      //POTENZA.dropdownmenu(),
+      //POTENZA.isSticky(),
       POTENZA.mediav(),
       POTENZA.goToTop(),
       POTENZA.mediaPopups(),
       POTENZA.rangesliders(),
-      POTENZA.instagramFeed(),
+      //POTENZA.instagramFeed(),
       POTENZA.searchbar(),
       POTENZA.swiperAnimation(),
       POTENZA.carousel();
