@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>DGital - Digital Agency HTML Template</title>
+    <title>Contact - Alitcha Community</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -19,7 +19,8 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -30,24 +31,18 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+    <link href="css/animcontact.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="container-xxl bg-white p-0">
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
-        </div>
-        <!-- Spinner End -->
-
-
+ 
         <!-- Navbar & Hero Start -->
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0" style="background-color: #F77B1E;">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="m-0">DGital</h1>
+                    <h1 class="m-0">Alitcha</h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -57,7 +52,7 @@
                     <div class="navbar-nav mx-auto py-0">
                       <a href="index.html" class="nav-item nav-link">Acceuil</a>
                       <a href="webmag.html" class="nav-item nav-link">Web Magazine</a>
-                      <a href="about.html" class="nav-item nav-link ">A propos</a>
+                      <a href="apropos.html" class="nav-item nav-link">A propos</a>
                       <!--<a href="service.html" class="nav-item nav-link">Service</a>-->
                       <!--<a href="project.html" class="nav-item nav-link">Projet</a>-->
                       <a href="contact.html" class="nav-item nav-link active">Contact</a>
@@ -69,37 +64,104 @@
 
         <!-- Contact Start -->
        <!-- Wrapper container -->
-<div class="container py-4">
-
-  <!-- Bootstrap 5 starter form -->
-  <form id="contactForm">
-
-    <!-- Name input -->
-    <div class="mb-3">
-      <label class="form-label" for="name">Name</label>
-      <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
-    </div>
-
-    <!-- Email address input -->
-    <div class="mb-3">
-      <label class="form-label" for="emailAddress">Email Address</label>
-      <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
-    </div>
-
-    <!-- Message input -->
-    <div class="mb-3">
-      <label class="form-label" for="message">Message</label>
-      <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
-    </div>
-
-    <!-- Form submit button -->
-    <div class="d-grid">
-      <button class="btn btn-primary btn-lg" type="submit">Submit</button>
-    </div>
-
-  </form>
-
-</div>
+<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+				
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-12">
+					<div class="wrapper">
+						<div class="row no-gutters">
+							<div class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch">
+								<div class="contact-wrap w-100 p-md-5 p-4">
+									<h3 class="mb-4">Contactez-nous !</h3>
+									<div id="form-message-warning" class="mb-4"></div> 
+				      		<div id="form-message-success" class="mb-4">
+				            Votre message a été envoyé. Merci !
+				      		</div>
+									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<label class="label" for="name">Nom & Prénom(s)</label>
+													<input type="text" class="form-control" name="name" id="name" placeholder="Votre nom et prénom(s)">
+												</div>
+											</div>
+											<div class="col-md-6"> 
+												<div class="form-group">
+													<label class="label" for="email">Email</label>
+													<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<label class="label" for="subject">Objet</label>
+													<input type="text" class="form-control" name="subject" id="subject" placeholder="Objet">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<label class="label" for="#">Message</label>
+													<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="submit" value="Envoyer mon message" class="btn btn-primary" style="background-color: #f77b1e">
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-5 d-flex align-items-stretch" style="background-color: #f77b1e">
+								<div class="info-wrap bg-primary w-100 p-md-5 p-4">
+									<h3>Prenez contact avec nous.</h3>
+									<p class="mb-4">Nous sommes ouvert pour toute sugession, requête ou discussion.</p>
+				        	<div class="dbox w-100 d-flex align-items-start">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-facebook"></span>
+				        		</div>
+				        		<div class="text pl-3">
+								<p><span><a href="https://www.facebook.com/Alitcha-106586631967294/!">Alitcha</a></span> </p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-phone"></span>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-paper-plane"></span>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+					          </div>
+				          </div>
+				        	<div class="dbox w-100 d-flex align-items-center">
+				        		<div class="icon d-flex align-items-center justify-content-center">
+				        			<span class="fa fa-twitter"></span>
+				        		</div>
+				        		<div class="text pl-3">
+					            <p><span>Alitcha : </span> <a href="https://twitter.com/Alitcha5?t=RlRUgTunK2yOglcP7WbmgQ&s=09!">@Alitcha5</a></p>
+					          </div>
+				          </div>
+			          </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
         <!-- Contact End -->
         
 
@@ -154,6 +216,12 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
