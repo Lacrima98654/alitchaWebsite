@@ -426,6 +426,60 @@ h6,
     transform: scale(1.1);
 }
 
+
+/*Pour à propos */
+.portfolio-flters li {
+    display: inline-block;
+    font-weight: 500;
+    color: var(--dark); 
+    cursor: pointer;
+    transition: .5s;
+    margin: 30px 0;
+    background: url(alitcha\ 0.png) no-repeat ;
+    background-size: 45px 45px;
+    padding-left: 60px;
+    display: block;
+   height: 60px;
+}
+
+.portfolio-flters{
+    width: 50%;
+}
+
+.objeImage{
+  float: right;
+  width: 50%;
+  height: 400px;
+}
+
+#fonctionnement li{
+    background-size: 30px 30px;
+    height: 40px;
+    background-position: 0 0px;
+}
+
+#imageApropos{
+    margin-top: 7rem;
+}
+
+@media (max-width: 800px) {
+    .portfolio-flters{
+        width: 100%;
+    }
+    .objeImage{
+        width: 100%;
+    }
+    .portfolio-flters li{
+        background-size:  35px 35px;
+    }
+    #imageApropos{
+    margin-top: 0rem;
+
+    }
+}
+/*end  Pour à propos */
+
+
 .portfolio-item .portfolio-overlay {
     position: absolute;
     display: flex;
