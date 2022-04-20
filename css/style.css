@@ -175,9 +175,9 @@ h6,
         background: #FFFFFF;
     }
 
-    .sticky-top.navbar-light .navbar-brand h1 {
+    /*.sticky-top.navbar-light .navbar-brand h1 {
         color: var(--primary);
-    }
+    }*/
 
     .navbar-light .navbar-nav .nav-item .dropdown-menu {
         display: block;
