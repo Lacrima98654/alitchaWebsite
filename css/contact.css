@@ -4829,7 +4829,7 @@ a.close.disabled {
   flex: 1 1 auto;
   padding: 1rem; }
 
-.modal-footer {
+/*.modal-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4846,7 +4846,7 @@ a.close.disabled {
   .modal-footer > :not(:first-child) {
     margin-left: .25rem; }
   .modal-footer > :not(:last-child) {
-    margin-right: .25rem; }
+    margin-right: .25rem; }*/
 
 .modal-scrollbar-measure {
   position: absolute;
