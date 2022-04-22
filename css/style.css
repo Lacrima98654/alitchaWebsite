@@ -442,7 +442,7 @@ h6,
     cursor: pointer;
     transition: .5s;
     margin: 30px 0;
-    background: url(.../img/alitcha0.png) no-repeat ;
+    background: url(../img/alitcha0.png) no-repeat ;
     /*background: url(../img/blob-primary.png) no-repeat;*/
     background-size: 45px 45px;
     padding-left: 60px;
