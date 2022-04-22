@@ -125,7 +125,7 @@ h6,
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 60px;
+    max-height: 50px;
     transition: .5s;
 }
 
@@ -156,7 +156,7 @@ h6,
     }
 
     .navbar-light .navbar-brand img {
-        max-height: 45px;
+        height: 30px;
     }
 }
 
@@ -204,6 +204,10 @@ h6,
     .sticky-top.navbar-light .btn {
         color: var(--dark);
         background: var(--secondary);
+    }
+
+    .logo-alitcha{
+        background-size: 50%;
     }
 }
 
