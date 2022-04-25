@@ -8216,7 +8216,8 @@ textarea.form-control {
   background: #fff; }
 
 .info-wrap {
-  color: rgba(255, 255, 255, 0.8); }
+  color: rgba(255, 255, 255, 0.8);
+  background: #CE6719;}
   .info-wrap h3 {
     color: #fff; }
   .info-wrap .dbox {
