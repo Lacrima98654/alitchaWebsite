@@ -663,6 +663,7 @@ h6,
     position: relative;
     z-index: 1;
     overflow: hidden;
+    background-color:#f77b1e;
 webkit-box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175);
     box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175);
     padding:60px;
@@ -755,7 +756,7 @@ webkit-box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175);
 }
 .single-footer-widget .copywrite-text a:hover,
 .single-footer-widget .copywrite-text a:focus {
-    color: #3f43fd;
+    color: #ffffff;
 }
 .single-footer-widget .widget-title {
     margin-bottom: 1.5rem;
@@ -768,7 +769,7 @@ webkit-box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175);
 }
 .single-footer-widget .footer_menu li a:hover,
 .single-footer-widget .footer_menu li a:focus {
-    color: #3f43fd;
+    color: #fffffff;
 }
 .single-footer-widget .footer_menu li:last-child a {
     margin-bottom: 0;
