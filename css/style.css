@@ -578,7 +578,7 @@ h6,
 
 
 /*** Footer ***/
-/* .footer {
+.footer {
     margin-top: 6rem;
     padding-top: 9rem;
     background:
@@ -656,7 +656,7 @@ h6,
 .footer .copyright a:hover,
 .footer .footer-menu a:hover {
     color: var(--secondary);
-} */
+}
 
 footer {
     padding:5rem 0;
