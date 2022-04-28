@@ -732,5 +732,5 @@ footer a{
 
 .footer-07 .ftco-footer-social {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
 }
