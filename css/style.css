@@ -578,7 +578,7 @@ h6,
 
 
 /*** Footer ***/
-.footer {
+/*.footer {
     margin-top: 6rem;
     padding-top: 9rem;
     background:
@@ -656,14 +656,9 @@ h6,
 .footer .copyright a:hover,
 .footer .footer-menu a:hover {
     color: var(--secondary);
-}
+}*/
 
-footer {
-    padding:5rem 0;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
+
 .footer_area {
     position: relative;
     z-index: 1;
