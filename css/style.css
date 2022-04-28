@@ -681,7 +681,6 @@ footer a{
 .footer-07 p {
       color: #fff;
     opacity: 0.8;
-    margin-top: 30px;
  }
   
 .footer-07 .footer-heading{
@@ -712,9 +711,7 @@ footer a{
   
 .footer-07 .ftco-footer-social li a {
       background: transparent;
-     
       margin-right: 30px;
-      
 } 
 
 .footer-07 .ftco-footer-social li:hover a, .footer-07 .menu a:hover{
