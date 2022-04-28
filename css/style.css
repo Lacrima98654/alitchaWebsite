@@ -663,7 +663,7 @@ footer {
     display: flex;
     text-align: center;
     justify-content: center;
-    background: #f77b1e;
+    
 }
   
 footer a{
@@ -675,13 +675,13 @@ footer a{
 }
   
 .footer-07 a {
-      color: #000;
-}
+      color: #fff;
+} 
   
 .footer-07 p {
       color: #fff;
-    opacity: 0.6;
-    margin-top: 50px;
+    opacity: 0.8;
+    margin-top: 30px;
  }
   
 .footer-07 .footer-heading{
@@ -699,27 +699,26 @@ footer a{
   
 .footer-07 .menu {
         margin: 40px 0;
-         
 }
   
 .footer-07 .menu a {
-    color: #000; 
+    color: #f1f1f1; 
     margin: 0 10px;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        list-style-type: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style-type: none;
+   font-weight: 900;
 }
   
 .footer-07 .ftco-footer-social li a {
       background: transparent;
-      border: 1px solid #fff;
-      padding: 10px 12px;
-      border-radius: 50%;
+     
       margin-right: 30px;
+      
 } 
 
 .footer-07 .ftco-footer-social li:hover a, .footer-07 .menu a:hover{
-       color: white;
+      color: #000;
 } 
 
 .footer-07 .ftco-footer-social li{
@@ -728,11 +727,13 @@ footer a{
 }
 
 .footer-07 .ftco-footer-social li span{
-    height: 70px;
+   font-size: 23px;
+   border: 1px solid #fff;
+    padding: 3px 5px; 
+   border-radius: 50%;
 }
 
 .footer-07 .ftco-footer-social {
         display: flex;
         justify-content: center;
-       
 }
