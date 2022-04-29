@@ -834,9 +834,7 @@ footer {
   font-weight: normal;
   padding: 2em 0;
   text-align: center;
-  background: linear-gradient(to top, #f77b1e 80%, white ); 
-  -moz-background: linear-gradient(to top, #f77b1e 80%, white ); 
-  -o-background: linear-gradient(to top, #f77b1e 80%, white ); 
+  background: #f77b1e; 
 }
 
 footer h2{
