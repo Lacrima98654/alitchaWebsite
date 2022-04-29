@@ -610,7 +610,7 @@ footer h2{
   width: 20px;
 }
 
-.footer-07 .footer-heading .logo:before{
+.footer-07 .footer-heading .logo::before{
   content: "";
   transition: 1s ease-in-out;
   animation: footerAnim2 4s infinite 1s alternate;
@@ -618,7 +618,7 @@ footer h2{
   -o-animation: footerAnim2 4s infinite 1s alternate;
 }
 
-.footer-07 .footer-heading .logo:after{
+.footer-07 .footer-heading .logo::after{
   content: "";
   width: 40px;
   height: 40px;
