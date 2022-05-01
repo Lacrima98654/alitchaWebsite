@@ -72,7 +72,7 @@
 plus possible sur la science et ses dérivées. Adhérez Alitcha et suivez notre
 web magazine pour élargir votre culture. </p>
                             <a href="webmag.html" class="btn py-sm-3 px-sm-5 rounded-pill animated slideInRight text-white" style="background-color: #F77B1E;">Web Magazine</a>
-                            <a href="" class="btn py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft text-white" style="background-color: #F77B1E;">Adhérer Alitcha</a>
+                            <a data-bs-toggle="modal" data-bs-target="#adhererAlitcha" href="" class="btn py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft text-white" style="background-color: #F77B1E;">Adhérer Alitcha</a>
 
                         </div>
                         <div class="col-lg-6 text-center text-lg-start">
@@ -310,6 +310,46 @@ informatique...) pour réaliser des projets innovants.
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
+    
+  
+    <!-- Modal Adhérer Alitcha -->
+    <div class="modal fade" id="adhererAlitcha" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header " style="background-color: #F77B1E;">
+                <h5 class="modal-title text-white" id="adhererAlitchaLabel" >Adhérer Alitcha</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fw-bold">Nom et Prénoms</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Entrez votre nom et prénoms">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fw-bold">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fw-bold">Numero de téléphone</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Entrez votre numero">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label fw-bold">Quelles sont vos compétences, dans le domaine du numérique surtout ?</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label fw-bold">Vos motivations pour l'adhésion</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Annuler</button>
+            <button  style="background-color: #F77B1E;" type="button" class="btn btn-secondary text-white">Adhérer</button>
+            </div>
+        </div>
+        </div>
+    </div>
+  
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
